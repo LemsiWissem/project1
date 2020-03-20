@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function calcul1(){
+			x=document.getElementById("val1").value;
+			window.alert(x*3.11);
+		}
+		function calcul2(){
+			x=document.getElementById("val1").value;
+			window.alert(x*0.32);
+		}
+		function calcul3(){
+			x=document.getElementById("val1").value;
+			window.alert(x*38.60);
+		}
+		function calcul4(){
+			x=document.getElementById("val1").value;
+			window.alert(x*0.026);
+		}
+	</script>
+<form>
+	<input type="number" id="val1">
+	<br>
+	<button onclick="calcul1()">euro to dinar</button>
+	<br>
+	<button onclick="calcul2()">dinar to euro</button>
+	<br>
+	<button onclick="calcul3()">dinar to yen</button>
+	<br>
+	<button onclick="calcul4()">yen to dinar</button>
+</form>
+</body>
+</html>
